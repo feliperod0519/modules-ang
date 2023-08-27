@@ -1,0 +1,15 @@
+https://console.firebase.google.com/project/feliperodprj2/overview
+https://console.firebase.google.com/project/feliperodprj2/database/feliperodprj2-default-rtdb/data
+
+https://console.firebase.google.com/project/feliperodprj2/authentication/users
+minou@cat-tv.com 123456
+manchitas@hotmail.com 123456
+
+https://console.firebase.google.com/project/feliperodprj2/database/feliperodprj2-default-rtdb/rules
+
+{
+  "rules": {
+    ".read": "auth!=null",  // 2023-9-22
+    ".write": "auth!=null",  // 2023-9-22
+  }
+}
